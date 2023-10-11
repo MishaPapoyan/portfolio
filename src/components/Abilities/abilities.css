@@ -1,0 +1,41 @@
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 1rem;
+}
+
+.container .box{
+    border: 1px solid #FF00FF;
+    border-radius: 25px;
+    width: 710px;
+    padding:  3%;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.btn-to-project{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 50px;
+}
+.btn-to-project:hover{
+    background-color: #3c5585;
+}
+.container .box ul li{
+    color: white;
+}
+.container .box:hover{
+    background-color: darkcyan;
+    transition: 2s;
+}
+.container .box ul li{
+    list-style-type: square;
+}
+
